@@ -60,6 +60,7 @@ void loop()
 Serial.println(volts);
  if (volts >=1.0)
  {
+  // Everything inside the if statement needs to change
   //turn on LED
   digitalWrite(ledPin, HIGH);
    delay(500);
